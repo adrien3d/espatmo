@@ -1,0 +1,15 @@
+menu "EspAtmo Configuration"
+    comment "Fill only EPD entries for single SPI displays (Good display/Waveshare)"
+    config NETATMO_CLIENT_ID
+        string "CLIENT_ID"
+        default "id"
+    config NETATMO_CLIENT_SECRET
+        string "CLIENT_SECRET"
+        default "secret"
+    config NETATMO_USERNAME
+        string "USERNAME"
+        default "user"
+    config NETATMO_PASSWORD
+        string "PASSWORD"
+        default "pwd"
+endmenu
